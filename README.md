@@ -44,7 +44,7 @@ ____
 ____
 
 
-### 8.  git cat - provide content or type n size info for rep objects
+### 8.  git cat - показывает контент или тип и размер информации объектов в репозитории
 
 ____
 
@@ -59,31 +59,32 @@ ____
 ____
 
 
-### 11. git clone - клонирование репозитория 
+### 11. git clone - клонирование репозитория (git clone <name repository, that need to be cloned> <name new cloned repository>)
 
 ____
 
 
-### 12. git clone <name repository, that need to be cloned> <name new cloned repository>
+### 12. git branch -a  - увидеть список всех удалённых веток
      
 ____
      
      
-### 13. git branch -a  - увидеть список всех удалённых веток
+### 13. git fetch - команда которая  будет извлекать новые коммиты из удаленного репозитория, но не будет сливать их с вашими наработками в локальных ветках
+     
      
 ____
      
      
-### 14. git fetch - штука которая  будет извлекать новые коммиты из удаленного репозитория, но не будет сливать их с вашими наработками в локальных ветках
+### 14. git pull - получить изменения с удаленного репозитория
+____
+     
+     
+### 15. git clone --bare <name repository, that need to be cloned> <name new cloned repository> - в комб с .git созд чистый репозиторий
      
 ____
      
      
-### 15. git pull - эквивалентна комбинации git fetch и git merge
+### 16. git merge - слить ветки
      
 ____
-     
-     
-### 16. git clone --bare <name repository, that need to be cloned> <name new cloned repository> - в комб с .git созд чистый репозиторий
-     
-____
+      
